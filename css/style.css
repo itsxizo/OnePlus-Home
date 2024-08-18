@@ -1,0 +1,315 @@
+body{
+	font-family: verdana;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+/*	background-color: #faf6f6;
+*/}
+
+.navbar {
+	
+/*		position: fixed;
+*/	    width: 100%;
+	    height: 70px;
+		background-color: #faf6f6;
+		z-index: 1000;
+
+}
+
+img{
+	padding-left: 200px;
+	padding-right: 200px;
+	width: 70px;
+	height: 68px;
+	cursor: pointer;
+}
+
+.items ul{
+
+	padding: 0px;
+	margin: 0px;
+    list-style-type: none;
+}
+
+.items ul li{
+/*	position: absolute;
+*/	float: left;
+}
+
+.items ul li a{
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	padding-left:  5px;
+	padding-top: 27px;
+	transition: ease-in 0.2s;
+	padding-bottom: 25px;
+}
+
+.items ul li a:hover{
+	color: #eb0028;
+}
+
+
+/*.items ul li .cool: :after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background-color: #eb0028;
+	transition: width .3s;
+
+}
+
+.items ul li .cool:hover: :after{
+	width: 100%;
+	transition: width .3s;
+
+}
+*/
+
+
+.intro {
+
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/backg.jpg);
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	color: #faf6f6;
+}
+
+.intro{
+/*	text-align: center;
+*/	float: left;
+}
+
+.intro h3{
+	font-size: 24px;
+	font-weight: normal;
+/*    line-height: 1.5;
+*/}
+.intro h2{
+	font-size: 42px;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+
+.text{
+	margin-top: 200px;
+    text-align: center;
+    max-width: 1000px;
+    left: 50%;
+}
+
+.text a {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	color: #faf6f6;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	transition: ease-in 0.2s;
+  	border: 1px solid #faf6f6;
+	background-color: transparent;
+    line-height: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+	border-radius: 5px;
+
+}
+
+.text a:hover{
+    color: #141823;
+	background-color: #faf6f6;
+}
+
+
+/*.tech{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;	
+	height: 100%;
+	background-image: url(../images/specsbg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-origin: content-box;
+  	background-repeat: no-repeat;
+  	padding-top: 955px;
+}*/
+
+
+
+
+
+.section{
+	display: block;
+	height: 400px;
+	width: 100%;
+	margin: 0px;
+	padding-top: 700px;
+	background-color: #eaf1f9;
+/*	background-image: url(../images/sbg.jpg);
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+*/  
+/*background-attachment: fixed;*/
+
+}
+.formy h1{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #555555;
+}
+.section h1{
+margin: 0px;
+padding: 0px;}
+
+.section p{
+	margin: 0px;
+padding: 0px;
+width: 60%;
+
+}
+.section img{
+	float: right;
+	height: 395px;
+	width: 400PX;
+	padding: 0px;
+	padding-right: 200px;
+}
+
+
+
+.specs li{
+		display: inline-block;
+
+	text-decoration: none;
+}
+
+.tech{
+	color: #463a62;
+}
+
+.tech h1{
+	font-size: 42px;
+margin: 0px;
+margin-left: 185px;
+padding-top: 30px;
+}
+
+
+.big {
+	font-size: 22px;
+	font-weight: bold;
+}
+.sml{
+	font-size: 18px;
+}
+
+.conti{
+
+	margin: 20px;
+	margin-left: 160px;
+	margin-top: 60px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #555555;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 280px;
+    font-size: 18px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #777777;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	background-image: url(../images/sbg2.jpg);
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+label{
+	font-size: 20px;
+}
+
+/*.msg{
+	float: right;
+}*/
+.formy{
+	background-color: white;
+	opacity: 0.8;
+	padding: 160px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+/*	padding-right: 750px;
+*/	margin: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 10px;
+
+}
+
+
+.footer {
+/*	position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;*/
+/*  padding: px;
+*/
+	/*padding-bottom: 10px;
+   position: unset;
+   top: 0;
+   left: 0;
+   bottom: 0;*/
+   background-color: #333333;
+   color: silver;
+   text-align: center;
+}
+
+.footer p{
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
